@@ -1,0 +1,174 @@
+
+    .Logo {
+      width: 34px;
+      height: 34px;
+      object-fit: contain;
+      float: left;
+    }
+    ul {
+      list-style-type: none;
+      margin: 10p;
+      padding: 10px;
+      width: 5%;
+      background-color: white;
+      position: fixed;
+      height: 1000px;
+      /*overflow: auto;*/
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 10px 16px;
+      text-decoration: none;
+      list-style-type: none;
+
+    }
+
+    li a.active {
+      background-color: white;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: white;
+      color: white;
+    }
+    body {
+      background-color: #f5f6fa;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .far {
+      float: left;
+      padding-left: 1050px;
+      color: grey;
+    }
+    .fa {
+            padding-right: 5px;
+            color: grey;
+    }
+    .leftcolumn {   
+      float: left;
+      width: 20%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+        .rightcolumn {
+      float: left;
+      width: 80%;
+      height: 50%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.group-10 {
+  background-image: url("image/group-10.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
+}
+.bitmap {
+  background-image: url("image/bitmap.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  mix-blend-mode: darken;
+  border-radius: 4px;
+}
+.card3 {
+  background-image: url("image/card3.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Add a card effect for articles */
+.card_1 {
+  background-color: #F3F2F2;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: -11px 9px 21px 0 rgba(173, 182, 217, 0.17);
+}
+.first_table {
+  padding-left: 20px;
+}
+table {
+    
+  border-collapse: collapse;
+  width: 70%;
+}
+th {
+  color: #a4a4a4;
+  font-size: 10px;
+}
+td {
+  color: #555555;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+/*.first_table {
+  padding-right: 20px;
+}*/
+.card_3 {
+  margin: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.card_4 {
+  float: left;
+  background-color: white;
+  margin: 20px;
+  width: 50%;
+  border-radius: 8px;
+}
+.card_5 {
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+  width: 45%;
+  border-radius: 8px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+hr {
+  color: #a4a4a4;
+   width: 80%;
+}
+.second_table {
+  color: #a4a4a4;
+  font-size: 10px;
+  text-align: left;
+  width: 40%;
+}
+.right_table {
+  float: right;
+  width: 20%;
+}
+    
